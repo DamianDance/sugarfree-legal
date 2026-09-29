@@ -152,6 +152,30 @@ word-break: break-word !important;
       
 
       
+    <section id="sugarfree-current-release" style="margin: 2rem auto; max-width: 900px; padding: 1.5rem; border-top: 1px solid #d9d9d9;" data-custom-class="body_text">
+      <h2>SugarFree – AI Macro Tracker: current-release data practices</h2>
+      <p><strong>Effective for the current SugarFree release: September 29, 2026.</strong> This product-specific section supplements and, where inconsistent, supersedes generic example tables elsewhere in this notice. Existing rights, deletion/request procedures, contact details, and legal bases remain unchanged.</p>
+
+      <h3>Account, profile, and community</h3>
+      <p>SugarFree uses Supabase for authentication and profile data. A profile may include an account identifier, email address, username or display name, optional full name, avatar URL, onboarding and nutrition fields, and community activity.</p>
+      <p>If you choose a profile picture, SugarFree stores it locally and uploads it to Supabase Storage. The picture has a public URL associated with your profile and may be displayed in community and leaderboard views. Anyone with that URL can access the picture. Account deletion removes the avatar stored by the app; copies retained in provider backups or caches may be subject to separate retention periods.</p>
+      <p>Forum posts and replies are stored in Supabase with your account identifier and displayed to community users. Do not include information you do not want to share with other community members. The account and data-deletion procedures described in this notice also apply to these features.</p>
+
+      <h3>AI processing and providers</h3>
+      <p>Food photos, optional visible label text, nutrition or health summaries, and Sugar AI chat messages are sent through Supabase Edge Functions to OpenAI for the requested analysis or response. These providers process the requests to provide the feature. SugarFree does not make a zero-retention promise; provider retention, logging, and deletion depend on applicable provider settings and terms.</p>
+
+      <h3>Health, purchases, and analytics</h3>
+      <p>HealthKit data is accessed only after you authorize the relevant permission and is used for the app's health, fitness, progress, and nutrition features.</p>
+      <p>RevenueCat processes purchases, subscription status, entitlement restoration, and cross-device access. RevenueCat is logged in with the authenticated Supabase user identifier, so purchase and subscription records are associated with that account. This is functionality-related processing, not cross-app advertising tracking.</p>
+      <p>When analytics consent is granted, Mixpanel receives product-usage events and identifies the account with the app's user identifier; some authentication and account properties may be supplied. When consent is denied, the app does not initialize Mixpanel tracking. This is consent-based analytics, not a claim that no analytics provider exists.</p>
+
+      <h3>Food searches and network requests</h3>
+      <p>Food search and barcode lookup requests may be sent to Open Food Facts and USDA FoodData Central. Requests may include search text or barcode, language, country or region, and product lookup context. Provider request logs may be retained under those services' policies. Saved food entries and nutrition history are distinct from the search requests themselves.</p>
+
+      <h3>Superseding the generic category examples for SugarFree</h3>
+      <p>For SugarFree, the generic category examples should not be read as current-release disclosures where they say: <strong>A (identifiers)</strong> are not processed; <strong>D (commercial information)</strong> including purchase history is not processed; <strong>F (internet or similar network activity)</strong> including search history is not processed; or <strong>H (images and audio/video recordings)</strong> are not processed. The current-release practices above govern instead. This section does not assert that SugarFree retains a historical search database or any particular provider retention period.</p>
+    </section>
+
     </main>
   </div>
 </body>
