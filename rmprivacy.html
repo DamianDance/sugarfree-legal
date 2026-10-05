@@ -3,141 +3,72 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Roast Master - Burn Everything · Privacy Policy</title>
-  <meta name="description" content="Privacy Policy for the Roast Master - Burn Everything app." />
+  <title>Roast Master · Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for the Roast Master app." />
   <style>
-    :root {
-      --bg: #fafafa;
-      --card: #ffffff;
-      --text: #1a1a1a;
-      --muted: #666;
-      --accent: #2a6df4;
-      --border: #e0e0e0;
-    }
+    :root { --bg: #fafafa; --card: #ffffff; --text: #1a1a1a; --muted: #666; --accent: #2a6df4; --border: #e0e0e0; }
     * { box-sizing: border-box; }
-    html, body {
-      margin: 0;
-      padding: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-    }
-    .wrap {
-      max-width: 880px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 28px;
-    }
-    h1 {
-      font-size: 28px;
-      margin: 0 0 6px 0;
-      color: var(--accent);
-      letter-spacing: 0.3px;
-      font-weight: 700;
-    }
-    .subtitle {
-      color: var(--muted);
-      font-size: 14px;
-    }
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 22px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
-    }
-    h2 {
-      font-size: 18px;
-      margin-top: 24px;
-      margin-bottom: 12px;
-      color: var(--accent);
-    }
-    h3 {
-      font-size: 16px;
-      margin-top: 20px;
-      margin-bottom: 8px;
-      color: var(--text);
-      font-weight: 600;
-    }
-    p {
-      margin: 12px 0;
-      color: var(--text);
-      font-size: 15px;
-    }
-    ul {
-      margin: 12px 0;
-      padding-left: 24px;
-    }
-    li {
-      margin: 8px 0;
-      color: var(--text);
-      font-size: 15px;
-    }
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .muted {
-      color: var(--muted);
-      font-size: 14px;
-    }
-    .footer {
-      margin-top: 26px;
-      padding-top: 16px;
-      border-top: 1px solid var(--border);
-      font-size: 13px;
-      color: var(--muted);
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; }
+    .wrap { max-width: 880px; margin: 40px auto; padding: 0 20px; }
+    header { text-align: center; margin-bottom: 28px; }
+    h1 { font-size: 28px; margin: 0 0 6px 0; color: var(--accent); letter-spacing: 0.3px; font-weight: 700; }
+    .subtitle { color: var(--muted); font-size: 14px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 22px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06); }
+    h2 { font-size: 18px; margin-top: 24px; margin-bottom: 12px; color: var(--accent); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--text); font-weight: 600; }
+    p { margin: 12px 0; color: var(--text); font-size: 15px; }
+    ul { margin: 12px 0; padding-left: 24px; }
+    li { margin: 8px 0; color: var(--text); font-size: 15px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 26px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 13px; color: var(--muted); display: flex; gap: 16px; flex-wrap: wrap; }
   </style>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <h1>Roast Master - Burn Everything</h1>
+      <h1>Roast Master</h1>
       <div class="subtitle">Privacy Policy</div>
     </header>
 
     <main class="card">
       <h2>1. Introduction</h2>
-      <p>This Privacy Policy explains how Roast Master - Burn Everything ("we," "our," or "us") collects, uses, and protects your information when you use our mobile application.</p>
+      <p>This Privacy Policy explains how Roast Master ("we," "our," or "us") collects, uses, and protects your information when you use our mobile application.</p>
 
       <h2>2. Information Collection</h2>
-      <p>We prioritize your privacy and keep data collection to a minimum. The app collects the following limited information:</p>
+      <p>We keep collection limited to what is needed to operate Roast Master and improve the product:</p>
       <ul>
-        <li><strong>Uploaded Photos:</strong> The photos you upload are sent to external infrastructure to generate AI-powered roast responses. These are processed temporarily and not stored.</li>
-        <li><strong>Basic Usage Analytics:</strong> We collect anonymized data to improve app performance and user experience.</li>
+        <li><strong>Uploaded Photos and User Content:</strong> Photos, screenshots, and free-form text that you submit for a roast are sent through our backend to third-party AI providers, including Gemini and/or Groq, to generate the requested response. Our backend also receives a pseudonymous RevenueCat app user identifier for entitlement and quota checks; it does not include that identifier in the AI prompt. AI providers may retain content for safety, abuse prevention, security, and service operation under their applicable terms.</li>
+        <li><strong>Analytics and Identifiers:</strong> Mixpanel receives product interaction events and related properties, including app/device context, a persistent pseudonymous identifier, and the iOS identifier for vendor where available, and approximate location inferred from the network IP address (such as city or country). These identifiers are linked to the device or app user context, even though the app does not collect a name or account email.</li>
+        <li><strong>Subscriptions and Purchases:</strong> RevenueCat processes subscription status, offerings, purchase and restore information, and its pseudonymous app user identifier to provide premium functionality, entitlement checks, quota controls, and subscription analytics.</li>
       </ul>
 
       <h2>3. How We Use Information</h2>
       <ul>
-        <li><strong>Uploaded Photos:</strong> Your images are processed in real time using external services to create personalized roast responses. The data is discarded immediately after processing.</li>
-        <li><strong>Usage Analytics:</strong> Aggregated and anonymized data helps us enhance app features and overall functionality.</li>
+        <li><strong>AI Features:</strong> We use submitted photos, screenshots, and text to provide roast generation and related app functionality through our backend and AI providers.</li>
+        <li><strong>Analytics:</strong> We use product interaction events and pseudonymous app/device identifiers to understand feature use, diagnose operational issues, and improve the app.</li>
+        <li><strong>Subscriptions:</strong> We use purchase and entitlement information to provide, restore, and protect premium features and to enforce usage quotas.</li>
       </ul>
 
       <h2>4. Data Sharing</h2>
       <ul>
-        <li>Uploaded photos may be processed using external infrastructure to generate roast content. These services do not store or retain the data.</li>
-        <li>We do not store, sell, or share any user data with third parties.</li>
+        <li>Submitted photos, screenshots, and text are shared with our backend infrastructure and the AI providers needed to generate a response. Analytics data is shared with Mixpanel, and subscription data is shared with RevenueCat.</li>
+        <li>These providers may process data for service operation, security, safety, abuse prevention, analytics, and legal compliance under their applicable terms and policies. We do not use the app data for cross-app targeted advertising or advertising measurement, and we do not sell it to data brokers.</li>
       </ul>
 
-      <h2>5. Data Storage & Security</h2>
+      <p>Provider information: <a href="https://ai.google.dev/gemini-api/terms">Gemini API terms</a>, <a href="https://console.groq.com/docs/your-data">Groq data handling</a>, <a href="https://mixpanel.com/legal/privacy-policy/">Mixpanel privacy</a>, and <a href="https://www.revenuecat.com/privacy/">RevenueCat privacy</a>.</p>
+
+      <h2>5. Data Storage &amp; Security</h2>
       <ul>
-        <li>Uploaded photos are not stored on our servers or retained by third-party services after processing.</li>
+        <li>Roast history, including generated roast text, submitted text, and optional image data, is stored locally on your device by the app. You can remove local app data using the app’s available controls or by removing the app from your device.</li>
+        <li>Our backend stores limited pseudonymous usage/quota records, including a hashed RevenueCat identity and image-analysis counters. It is not designed to store the submitted image or roast text in that quota database.</li>
+        <li>AI, analytics, subscription, and infrastructure providers may retain or process data in their own systems under their applicable terms. Retention depends on the provider and the service being used; immediate deletion after a response is not guaranteed.</li>
         <li>We implement reasonable security measures to protect data during upload and processing.</li>
       </ul>
 
       <h2>6. Children's Privacy</h2>
-      <p>Roast Master - Burn Everything is not intended for children under 13 years of age, and we do not knowingly collect any personal information from children.</p>
+      <p>Roast Master is not intended for individuals under 18 years of age, and we do not knowingly collect personal information from individuals under 18.</p>
 
       <h2>7. Changes to This Policy</h2>
       <p>We may update this Privacy Policy as needed. Any changes will be posted here, with an updated effective date.</p>
@@ -146,7 +77,7 @@
       <p>If you have any questions or concerns about this Privacy Policy, please contact us at: <a href="mailto:d.witko@icloud.com">d.witko@icloud.com</a></p>
 
       <div class="footer">
-        <span>Last updated: November 5, 2025</span>
+        <span>Last updated: October 5, 2026</span>
       </div>
     </main>
   </div>
