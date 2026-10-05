@@ -1,0 +1,31 @@
+{
+  "published_at": "2026-10-05T15:14:40Z",
+  "repository": "https://github.com/DamianDance/sugarfree-legal",
+  "branch": "main",
+  "commit": {
+    "sha": "3909ab0844f7f911a06a01435c5d5fff0caa1183",
+    "url": "https://github.com/DamianDance/sugarfree-legal/commit/3909ab0844f7f911a06a01435c5d5fff0caa1183",
+    "message": "Update Roast Master privacy policy"
+  },
+  "changed_files": [
+    "rmprivacy.html"
+  ],
+  "source": "/Volumes/SanDisk Archive/DamianMacOffload/home/Projects/iOS Apps/Roastthem/audit/2026-10-05/rmprivacy-proposed.html",
+  "source_marker_removed": "(proposed; not published)",
+  "pages": {
+    "url": "https://damiandance.github.io/sugarfree-legal/rmprivacy.html",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "body_sha256": "b7d07f72287f48175a7282c4080d8ad7f0a0366b4fcc25c5959ffa9b77bd74b1",
+    "body_bytes": 6781,
+    "exact_body_match_local_file": true,
+    "readback_markers": {
+      "last_updated": "October 5, 2026",
+      "proposed_marker_present": false,
+      "mixpanel_ip_location_disclosure_present": true,
+      "adult_18_intended_use_disclosure_present": true,
+      "gemini_groq_backend_content_disclosure_present": true,
+      "revenuecat_identifier_not_in_ai_prompt_disclosure_present": true
+    }
+  }
+}
