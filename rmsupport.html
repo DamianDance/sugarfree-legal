@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Roast Master support, usage limits, purchases and troubleshooting.">
+  <title>Roast Master · Support</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#fff8f2; --surface:#fff; --ink:#241a15; --muted:#6e625c; --line:#eadbd0; --accent:#b84d29; --accent-soft:#f9e5d9; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#1b1512; --surface:#271d19; --ink:#fff6ef; --muted:#cdbdb3; --line:#49362d; --accent:#ff936d; --accent-soft:#3e2921; } }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; }
+    main { max-width:760px; margin:0 auto; padding:28px 18px 56px; }
+    header { padding:24px 0 22px; border-bottom:1px solid var(--line); }
+    .eyebrow { color:var(--accent); font-weight:700; letter-spacing:.08em; text-transform:uppercase; font-size:12px; }
+    h1 { margin:5px 0 8px; font-size:clamp(30px,8vw,46px); line-height:1.08; }
+    .lede { margin:0; color:var(--muted); font-size:17px; max-width:620px; }
+    .language { display:flex; gap:8px; margin-top:20px; }
+    button { border:1px solid var(--line); border-radius:999px; padding:7px 13px; color:var(--ink); background:var(--surface); font:inherit; cursor:pointer; }
+    button[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:#fff; }
+    section { margin-top:28px; }
+    h2 { margin:0 0 10px; font-size:23px; line-height:1.2; }
+    h3 { margin:20px 0 5px; font-size:17px; }
+    p { margin:9px 0; }
+    ul { margin:10px 0; padding-left:22px; }
+    li { margin:7px 0; }
+    .card { background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:20px; }
+    .callout { background:var(--accent-soft); border:0; }
+    a { color:var(--accent); }
+    .muted { color:var(--muted); font-size:14px; }
+    .actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; }
+    .primary { display:inline-block; background:var(--accent); color:#fff; border-radius:999px; padding:10px 16px; text-decoration:none; font-weight:700; }
+    footer { margin-top:38px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+    [data-lang="de"] { display:none; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Roast Master</div>
+      <h1><span data-lang="en">Support</span><span data-lang="de">Hilfe &amp; Support</span></h1>
+      <p class="lede"><span data-lang="en">Roast your text, images and chats with a little help from your sharpest assistant.</span><span data-lang="de">Roaste Texte, Bilder und Chats mit ein wenig Hilfe von deinem schärfsten Assistenten.</span></p>
+      <div class="language" aria-label="Language"><button type="button" data-switch="en" aria-pressed="true">English</button><button type="button" data-switch="de" aria-pressed="false">Deutsch</button></div>
+    </header>
+
+    <section class="card callout">
+      <h2><span data-lang="en">Need help?</span><span data-lang="de">Brauchst du Hilfe?</span></h2>
+      <p><span data-lang="en">Email us and include your app version, device model and a short description of what happened. Please do not attach sensitive or private images automatically; describe the issue first and attach an image only if you are comfortable sharing it.</span><span data-lang="de">Schreib uns eine E-Mail und nenne deine App-Version, dein Gerätemodell und kurz, was passiert ist. Bitte füge sensible oder private Bilder nicht automatisch an; beschreibe das Problem zuerst und hänge ein Bild nur an, wenn du es wirklich teilen möchtest.</span></p>
+      <div class="actions"><a class="primary" href="mailto:d.witko@icloud.com?subject=Roast%20Master%20Support&amp;body=App%20version%3A%20%5Bplease%20add%5D%0ADevice%20and%20iOS%3A%20%5Bplease%20add%5D%0AWhat%20happened%3A%20%5Bplease%20describe%5D%0A%0AI%20have%20not%20attached%20sensitive%20images%20automatically.">Email support</a></div>
+    </section>
+
+    <section>
+      <h2><span data-lang="en">Common fixes</span><span data-lang="de">Häufige Lösungen</span></h2>
+      <div class="card">
+        <h3><span data-lang="en">Roast connection</span><span data-lang="de">Roast-Verbindung</span></h3>
+        <p><span data-lang="en">Check that you are online, then try again. If the roast still does not arrive, close and reopen Roast Master. Send support the app version, device model and the approximate time of the failed request.</span><span data-lang="de">Prüfe deine Internetverbindung und versuche es erneut. Wenn der Roast weiterhin nicht ankommt, schließe Roast Master und öffne es wieder. Sende uns App-Version, Gerätemodell und die ungefähre Uhrzeit des fehlgeschlagenen Versuchs.</span></p>
+        <h3><span data-lang="en">Images and OCR</span><span data-lang="de">Bilder und OCR</span></h3>
+        <p><span data-lang="en">Use a clear, well-lit image with readable text. Crop out unrelated content when possible and make sure Roast Master has the photo permission it needs. Very small, blurry or heavily compressed text may not be readable.</span><span data-lang="de">Verwende ein klares, gut beleuchtetes Bild mit lesbarem Text. Schneide möglichst nicht benötigte Inhalte ab und stelle sicher, dass Roast Master die nötige Fotoberechtigung hat. Sehr kleiner, unscharfer oder stark komprimierter Text ist möglicherweise nicht lesbar.</span></p>
+        <h3><span data-lang="en">Chat images</span><span data-lang="de">Bilder im Chat</span></h3>
+        <p><span data-lang="en">If an image in a chat is not recognized, try sending it again with a short text prompt. Keep the image in the conversation and avoid rapidly sending many requests at once.</span><span data-lang="de">Wenn ein Bild im Chat nicht erkannt wird, sende es mit einem kurzen Text-Prompt erneut. Lass das Bild im Gespräch und vermeide viele Anfragen direkt hintereinander.</span></p>
+      </div>
+    </section>
+
+    <section>
+      <h2><span data-lang="en">Usage and Premium</span><span data-lang="de">Nutzung und Premium</span></h2>
+      <div class="card">
+        <p><span data-lang="en">Premium includes unlimited text roasts and 30 image analyses per account per UTC calendar month. Chat images count toward the image-analysis allowance.</span><span data-lang="de">Premium umfasst unbegrenzte Text-Roasts und 30 Bildanalysen pro Account und UTC-Kalendermonat. Bilder im Chat zählen zum Kontingent für Bildanalysen.</span></p>
+        <p><span data-lang="en">Free use includes 3 analyses, plus up to 3 bonus analyses when available. The app shows the current allowance and any applicable limits.</span><span data-lang="de">Die kostenlose Nutzung umfasst 3 Analysen sowie bis zu 3 Bonus-Analysen, sofern verfügbar. Die App zeigt das aktuelle Kontingent und geltende Limits an.</span></p>
+      </div>
+    </section>
+
+    <section>
+      <h2><span data-lang="en">Purchases and account</span><span data-lang="de">Käufe und Account</span></h2>
+      <div class="card">
+        <p><span data-lang="en">If Premium is missing after purchase, use Restore Purchases in the app and confirm that you are signed in with the Apple Account used for the purchase. Apple handles billing, refunds and payment details.</span><span data-lang="de">Wenn Premium nach einem Kauf fehlt, verwende „Käufe wiederherstellen“ in der App und prüfe, ob du mit dem Apple Account des Kaufs angemeldet bist. Apple verwaltet Abrechnung, Rückerstattungen und Zahlungsdaten.</span></p>
+        <p><a href="https://apps.apple.com/app/id6754929913">View Roast Master on the App Store</a></p>
+      </div>
+    </section>
+
+    <footer>
+      <p><span data-lang="en">Roast Master is provided by Damian Witkowski. For privacy and legal details, see <a href="rmprivacy.html">Privacy Policy</a>, <a href="rmterms.html">Terms of Use</a> and <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple's Standard EULA</a>.</span><span data-lang="de">Roast Master wird von Damian Witkowski bereitgestellt. Datenschutz und rechtliche Informationen findest du in der <a href="rmprivacy.html">Datenschutzerklärung</a>, den <a href="rmterms.html">Nutzungsbedingungen</a> und <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Standard-EULA</a>.</span></p>
+      <p class="muted">&copy; 2026 Damian Witkowski</p>
+    </footer>
+  </main>
+  <script>
+    (() => {
+      const setLanguage = (language) => {
+        document.documentElement.lang = language;
+        document.querySelectorAll('[data-lang]').forEach((el) => { el.style.display = el.dataset.lang === language ? 'inline' : 'none'; });
+        document.querySelectorAll('[data-switch]').forEach((button) => { button.setAttribute('aria-pressed', String(button.dataset.switch === language)); });
+      };
+      document.querySelectorAll('[data-switch]').forEach((button) => button.addEventListener('click', () => setLanguage(button.dataset.switch)));
+      setLanguage('en');
+    })();
+  </script>
+</body>
+</html>
